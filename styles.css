@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.body-background{
+  background-image: url(./images/pattern-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.pos-rel{
+  position: relative;
+}
+h1 {
+    color: white;
+}
+form{
+  padding: 0.5cm;
+}
+
+ input{
+    height: 40px;
+    width: 15cm;
+    flex-grow: 8;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+ button{
+    height: 100%;
+    width: 1cm;
+    flex-grow: 1;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(0, 0%, 17%);
+  }
+   button:hover{
+    cursor: pointer;
+    background-color:hsl(0, 0%, 59%);
+  }
+  .info-container{
+    width: 95%;
+    max-width: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    min-height: 150px;
+    top: 10%;
+    border: none;
+    border-radius: 15px;
+    z-index: 1000;
+ 
+  }
+  .info-container div{
+    width: 25%;
+    border-right: 1px hsl(0, 0%, 50%) solid;
+    padding: 0 20px 0 20px;
+  }  
+  #map{
+    height: 100%; 
+    width: 100%;
+  }
